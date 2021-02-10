@@ -4,7 +4,7 @@ export const Footer = () => {
     return (    
         <div className="navbar navbar-inverse navbar-fixed-bottom">
           <Container>
-            <p className="navbar-text">© Recode Pro</p>
+            <p className="navbar-text">© Tainá Ferreira</p>
           </Container>
         </div>
     )

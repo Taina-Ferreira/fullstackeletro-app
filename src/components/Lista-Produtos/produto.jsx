@@ -8,9 +8,6 @@ const MyDiv = styled.div`
 `;
 
 
-
-
-
 const Produto = (props) => {
 
     const showTitle = (title) => {

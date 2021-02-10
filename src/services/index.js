@@ -1,4 +1,4 @@
-const urlBase = 'http://localhost:80/API/';
+const urlBase = 'http://localhost:4000/';
 
 export const getCategorias = async () => {
     const apiUrl = urlBase + 'categorias/';

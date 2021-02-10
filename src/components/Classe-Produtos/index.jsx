@@ -51,7 +51,7 @@ const ClasseProdutos = (props) => {
                 <StyU>
                     <StyLi onClick={(e) => {props.alterarCategoria(false)}}>Todos</StyLi>
                     {categorias.map(
-                        (cat,index) => (<StyLi  key={index} onClick={(e) => {props.alterarCategoria(e.target.innerText)}} value={cat.id_categoria}>{cat.categoria}</StyLi>)
+                        (cat,index) => (<StyLi  key={index} onClick={(e) => {props.alterarCategoria(e.target.value)}} value={cat.id_categoria}>{cat.categoria}</StyLi>)
                     )}
                 </StyU>
             </Categorias>

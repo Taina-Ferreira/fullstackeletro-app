@@ -20,8 +20,29 @@ export const postProdutos = async (body) => {
         .then(response => response.json());
 }
 
+
 export const getProdutos = async () => {
     const apiUrl = urlBase + 'produtos/';
+    return fetch(apiUrl)
+            .then((response) => response.json())
+}
+
+export const postMensagem = async (body) => {
+
+    const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    };
+
+    const apiUrl = urlBase + 'mensagem/';
+
+    return fetch(apiUrl, requestOptions)
+        .then(response => response.json());
+}
+
+export const getMensagens = async () => {
+    const apiUrl = urlBase + 'mensagem/';
     return fetch(apiUrl)
             .then((response) => response.json())
 }

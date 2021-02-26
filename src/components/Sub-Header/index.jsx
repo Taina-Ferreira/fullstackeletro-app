@@ -9,7 +9,7 @@ const Hp = styled.h2`
 `;
 
 
-export const SubHeader = (props) => {
+const SubHeader = (props) => {
     return (
         <div>
             <Container>
@@ -21,3 +21,5 @@ export const SubHeader = (props) => {
         </div>
     )
 }
+
+export default SubHeader

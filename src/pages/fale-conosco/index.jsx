@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import {Header} from '../../components/Header';
-import {SubHeader} from '../../components/Sub-Header';
+import Header from '../../components/Header';
+import SubHeader from '../../components/Sub-Header';
 
 const FaleConosco = () => {
     return (

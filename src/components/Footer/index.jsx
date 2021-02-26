@@ -1,6 +1,6 @@
 import {Container} from 'react-bootstrap';
 
-export const Footer = () => {
+const Footer = () => {
     return (    
         <div className="navbar navbar-inverse navbar-fixed-bottom">
           <Container>
@@ -9,3 +9,5 @@ export const Footer = () => {
         </div>
     )
 }
+
+export default Footer;

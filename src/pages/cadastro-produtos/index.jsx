@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import {Header} from '../../components/Header';
-import {SubHeader} from '../../components/Sub-Header';
+import Header from '../../components/Header';
+import SubHeader from '../../components/Sub-Header';
 
 import {FormCadProd} from '../../components/Form-Cadastro-Produtos'
 

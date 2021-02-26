@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.svg';
 
-export const Header = () => {
+const Header = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
@@ -26,8 +26,13 @@ export const Header = () => {
                         <Nav.Link as={Link} to="/contato">Fale Conosco</Nav.Link>
                         <Nav.Link as={Link} to="/admin/cadastro-produtos">Cadastre seu produto</Nav.Link>
                     </Nav>
+                    <Nav>
+                        
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </div>
     )
 }
+
+export default Header;
